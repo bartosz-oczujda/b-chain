@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bartosz-oczujda/b-chain/issues"
   },
-  "homepage": "https://github.com/bartosz-oczujda/b-chain#readme"
+  "homepage": "https://github.com/bartosz-oczujda/b-chain#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
 }
