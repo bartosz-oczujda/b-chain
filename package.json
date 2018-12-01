@@ -4,7 +4,7 @@
   "description": "A blockchain implementation based on the original Bitcoin whitepaper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo && ava"
   },
   "repository": {
     "type": "git",
