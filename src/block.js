@@ -1,18 +1,10 @@
-class Block {
-    constructor(timestamp, lastHash, hash, data) {
-        this.timestamp = timestamp
-        this.lastHash = lastHash
-        this.hash = hash
-        this.data = data
-    }
-
-    toString() {
-        return `Block -
-        Timestamp: ${this.timestamp}
-        Last Hash: ${this.lastHash.substring(0, 10)}
-        Hash     : ${this.hash.substring(0, 10)}
-        Data     : ${this.data}`
+const createBlock = (timestamp, lastHash, hash, data) => {
+    return {
+        timestamp,
+        lastHash,
+        hash,
+        data
     }
 }
 
-module.exports = Block
+module.exports = {createBlock}
