@@ -1,0 +1,20 @@
+{
+  "name": "b-chain",
+  "version": "1.0.0",
+  "description": "A blockchain implementation based on the original Bitcoin whitepaper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartosz-oczujda/b-chain.git"
+  },
+  "keywords": [],
+  "author": "Bartosz Oczujda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartosz-oczujda/b-chain/issues"
+  },
+  "homepage": "https://github.com/bartosz-oczujda/b-chain#readme"
+}
