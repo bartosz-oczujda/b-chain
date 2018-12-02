@@ -1,8 +1,8 @@
-const createBlock = (timestamp, lastHash, hash, data) => {
+const createBlock = (timestamp, previousHash, newHash, data) => {
     return {
         timestamp,
-        lastHash,
-        hash,
+        previousHash,
+        newHash,
         data
     }
 }
