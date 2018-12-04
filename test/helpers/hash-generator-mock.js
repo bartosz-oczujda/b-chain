@@ -1,7 +1,12 @@
-const sha256 = require('crypto-js/sha256')
+const gen = generator()
 
-const generate = (timestamp, previousHash, data) => {
-    return "FAKE HASH"
+const generate = () => {
+    return gen.next().value
+}
+
+function* generator() {
+    let index = 0
+    while (true) yield index++
 }
 
 module.exports = {generate}
